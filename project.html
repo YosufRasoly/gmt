@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Gruppo Progetti Europei</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .service-img {
+            width: 240px;
+            height: 180px;
+        }
+
+        @media(max-width:767px) {
+            .service-img {
+                max-width: 240px;
+                max-width: 180px;
+            }
+        }
+
+        @media(max-width:991px) {
+            .service-img {
+                width: 240px;
+                height: 180px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5">
+        <div class="row gx-4 d-none d-lg-flex">
+            <div class="col-lg-6 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-map-marker-alt text-white"></small>
+                    </div>
+                    <small>Largo Francesco Vito 1 - 00168 - Roma</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-envelope-open text-white"></small>
+                    </div>
+                    <small>info@progettieuropeiteam.eu</small>
+                </div>
+            </div>
+            <div class="col-lg-6 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-phone-alt text-white"></small>
+                    </div>
+                    <small>+39 347 353 9522</small>
+                </div>
+                <!-- <div class="h-100 d-inline-flex align-items-center py-3">
+                <div class="btn-sm-square rounded-circle bg-primary me-2">
+                    <small class="fa fa-envelope-open text-white"></small>
+                </div>
+                <small>comunicazione@progettieuropeiteam.eu</small>
+            </div> -->
+
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="far fa-clock text-white"></small>
+                    </div>
+                    <small>Lun - Ven : 09:00 - 18:00</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <img src="img/logo.JPG" style="height: 76px; padding-right: 15px;" alt="">
+            <h2 class="m-0 text-primary">Progetti Europei Team</h2>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">Chi Siamo</a>
+                <a href="service.html" class="nav-item nav-link">Servizi</a>
+                <a href="project.html" class="nav-item nav-link">Progetti</a>
+                <a href="gallery.html" class="nav-item nav-link">Galleria</a>
+                <a href="contact.html" class="nav-item nav-link">Contatto</a>
+
+            </div>
+            <div class="h-100 d-lg-inline-flex align-items-center d-none">
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+                        class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+                        class="fab fa-twitter"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Progetti</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pagine</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Progetti</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">Nostro Progetti</h1>
+            </div>
+            <!--  -->
+            <div class="row align-items-center justify-content-between mb-5">
+                <div class="col-lg-12 col-md-12">
+                    <div class="text-feature-block style-three ms-mrb-50">
+                        <!-- <p class="color-secondary"><i>CONNECT WITH YOUR USERS</i></p> -->
+                        <h5 class="">
+                            Lavoriamo da tanti anni in progetti europei e abbiamo ottenuto risultati in economia,
+                            accademici e
+                            specialmendte per gli odpedali.
+                        </h5>
+                        <div class="text">
+                            <p>
+                                Ateneo e Facoltà: i Progetti Europei impattano sui criteri di valutazione ANVUR:
+                                Finanziamenti da Progetti acquisiti da Bandi competitivi
+                                Internazionalizzazione - Finanziamenti da progetti acquisiti da bandi competitivi
+                                internazionali
+                                Responsabilità: ruolo dei PI nei progetti acquisiti da bandi competitivi (Coordinatori o
+                                Responsabili di unità operative)
+                                Fondazione: la partecipazione a Progetti Europei è criterio di valutazione per
+                                l'accreditamento ad
+                                IRCCS ogni anno nel report effettuato al Ministero della Salute.
+                            </p>
+                            <p>
+                                45 progetti proposti dal nostro gruppo e 12 sono approvati qui potete multare tutti i
+                                progetti su cosa abbiamo lavorato e ci stiamo lavorando.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <!-- -->
+            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">Tutti</li>
+                        <li class="mx-2" data-filter=".first">Progetti Completati</li>
+                        <li class="mx-2" data-filter=".second">Progetti in Corso</li>
+                        <li class="mx-2" data-filter=".third">Progetti di Proposta</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container">
+                <!-- completed -->
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/projects/pro6.png" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">COronavirus Vulnerabilities and INFOrmation dynamics Research
+                                and Modelling</p>
+                            <h5 class="lh-base mb-0">COVINFORM</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">COronavirus Vulnerabilities and INFOrmation dynamics Research
+                                and Modelling</p>
+                            <h5 class="lh-base mb-3">COVINFORM</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/projects/pro6.png"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="https://www.covinform.eu/" target="_blank"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/projects/pro8.png" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Network Of practitioners For Emergency medicAl systems and
+                                cRitical care</p>
+                            <h5 class="lh-base mb-0">NO FEAR</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Network Of practitioners For Emergency medicAl systems and
+                                cRitical care</p>
+                            <h5 class="lh-base mb-3">NO FEAR</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/projects/pro8.png"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href=" https://no-fearproject.eu/" target="_blank"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/no-image.png" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Protection and privAcy of hospital and health iNfrastructures
+                                with smArt Cyber sEcurity and cyber threat toolkit for dAta and people</p>
+                            <h5 class="lh-base mb-0">PANACEA</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Protection and privAcy of hospital and health iNfrastructures
+                                with smArt Cyber sEcurity and cyber threat toolkit for dAta and people</p>
+                            <h5 class="lh-base mb-3">PANACEA</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/no-image.png"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/no-image.png" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">DemonstRation of EU effective lArge sCale tHreat and crIsis
+                                maNaGement OUTside the EU</p>
+                            <h5 class="lh-base mb-0">Reaching out</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">DemonstRation of EU effective lArge sCale tHreat and crIsis
+                                maNaGement OUTside the EU</p>
+                            <h5 class="lh-base mb-3">Reaching out</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/no-image.png"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/no-image.png" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">European Cbrn Innovation for the maRket CLuster</p>
+                            <h5 class="lh-base mb-0">ENCIRCLE</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">European Cbrn Innovation for the maRket CLuster</p>
+                            <h5 class="lh-base mb-3">ENCIRCLE</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/no-image.png"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ongoing projects -->
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/projects/pro1.png" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Innovative Cluster for Radiological and Nuclear Emergencies</p>
+                            <h5 class="lh-base mb-0">Including</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Innovative Cluster for Radiological and Nuclear Emergencies</p>
+                            <h5 class="lh-base mb-3">Including</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/projects/pro1.png"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="https://www.including-h2020.eu/" target="_blank"><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/projects/pro2.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Empowering a Pan-European Network to Counter Hybrid Threats</p>
+                            <h5 class="lh-base mb-0">EU-HYBNET</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Empowering a Pan-European Network to Counter Hybrid Threats</p>
+                            <h5 class="lh-base mb-3">EU-HYBNET</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/projects/pro2.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=" https://euhybnet.eu/"
+                                    target="_blankÍ"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/projects/pro3.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Integrated large sport facilities protection system supporting
+                                the CBRN security of mass events</p>
+                            <h5 class="lh-base mb-0">SAFE STADIUM</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Integrated large sport facilities protection system supporting
+                                the CBRN security of mass events</p>
+                            <h5 class="lh-base mb-3">SAFE STADIUM</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/projects/pro3.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="https://safe-stadium.eu/" target="_blank"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/projects/pro4.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Novel InteGrated toolkit for enhanced pre-Hospital life support
+                                and Triage IN challenGing And Large Emergencies</p>
+                            <h5 class="lh-base mb-0">NIGHTINGALE</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Novel InteGrated toolkit for enhanced pre-Hospital life support
+                                and Triage IN challenGing And Large Emergencies</p>
+                            <h5 class="lh-base mb-3">NIGHTINGALE</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/projects/pro4.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="https://www.nightingale-triage.eu/" target="_blank"><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/projects/pro7.png" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Trust and privacy preserving computing platform for
+                                cross-border federation of data</p>
+                            <h5 class="lh-base mb-0">TRUSTEE</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Trust and privacy preserving computing platform for
+                                cross-border federation of data</p>
+                            <h5 class="lh-base mb-3">TRUSTEE</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/projects/pro7.png"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="https://horizon-trustee.eu/" target="_blank"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Dynamic Resilience Assessment Method including combined
+                                Business Continuity Management and Cyber Threat Intelligence solution for Critical
+                                Sectors</p>
+                            <h5 class="lh-base mb-0">DYNAMO</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Dynamic Resilience Assessment Method including combined
+                                Business Continuity Management and Cyber Threat Intelligence solution for Critical
+                                Sectors</p>
+                            <h5 class="lh-base mb-3">DYNAMO</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-6.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/projects/pro5.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">CYBERsecurity of Healthcare IMPRovEd in a X-border perspective
+                            </p>
+                            <h5 class="lh-base mb-0">CYBERHIMPREX</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">CYBERsecurity of Healthcare IMPRovEd in a X-border perspective
+                            </p>
+                            <h5 class="lh-base mb-3">CYBERHIMPREX</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/projects/pro5.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="https://cyberhimprex.policlinicogemelli.it/" target="_blank"><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/no-image.png" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">perposed title goes here
+                            </p>
+                            <h5 class="lh-base mb-0">rescEU</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">perposed title goes here
+                            </p>
+                            <h5 class="lh-base mb-3">rescEU</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/no-image.png"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/no-image.png" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">AI ENABLED HEALTHCARE SERVICES DURING CROSS-BORDER MEDICAL
+                                EMERGENCIES AND REGULAR PATIENT SERVICES
+                            </p>
+                            <h5 class="lh-base mb-0">ESCORT</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">AI ENABLED HEALTHCARE SERVICES DURING CROSS-BORDER MEDICAL
+                                EMERGENCIES AND REGULAR PATIENT SERVICES
+                            </p>
+                            <h5 class="lh-base mb-3">ESCORT</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/no-image.png"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/no-image.png" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Climate neutral initiatives for growing health and care unmet
+                                requirements
+                            </p>
+                            <h5 class="lh-base mb-0">CARING NATURE</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Climate neutral initiatives for growing health and care unmet
+                                requirements
+                            </p>
+                            <h5 class="lh-base mb-3">CARING NATURE</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/no-image.png"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--PROJECT IN Parposal  -->
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/no-image.png" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Perposal title or if the complete title exist in other lower
+                                field then write small description here
+                            </p>
+                            <h5 class="lh-base mb-0">SAP4ALL "(Title Acronym if not exist the title)"</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Perposal title or if the complete title exist in other filled
+                                her write small description goes here
+                            </p>
+                            <h5 class="lh-base mb-3">SAP4ALL "(Title Acronym if not exist the title)"</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/no-image.png"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="" target="_blank"><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Progetti Europei Team</h5>
+                    <!-- <i class="fa fa-map-marker-alt me-3"></i> -->
+                    <p class="mb-2">Siamo un solido gruppo di Professori Universitari, Medici, Chirurghi, Ricercatori,
+                        Ingegneri, europrogettisti e collaboratori che operano da anni ...</p>
+                    <!-- <i></i><a href="about.html">Leggi Più</a> -->
+                    <!-- <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+39 347 353 9522</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@progettieuropeiteam.eu</p> -->
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Services</h5>
+                    <a class="btn btn-link" href="">Business Security</a>
+                    <a class="btn btn-link" href="">Fire Detection</a>
+                    <a class="btn btn-link" href="">Alarm Systems</a>
+                    <a class="btn btn-link" href="">CCTV & Video</a>
+                    <a class="btn btn-link" href="">Smart Home</a>
+                </div> -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Collegamenti Rapidi</h5>
+                    <a class="btn btn-link" href="about.html">Chi Siamo</a>
+                    <a class="btn btn-link" href="service.html">Servizi</a>
+                    <a class="btn btn-link" href="project.html">Progetti</a>
+                    <a class="btn btn-link" href="gallery.html">Galleria</a>
+                    <a class="btn btn-link" href="contact.html">Contatto</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Newsletter</h5>
+                    <!-- <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p> -->
+                    <div class="position-relative w-100">
+                        <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Vostro email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Address</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Largo Francesco Vito 1 - 00168 - Roma</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+39 347 353 9522</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-1"></i>info@progettieuropeiteam.eu</p>
+                    <!-- <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid py-4" style="background: #000000;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; &nbsp;
+                    <script>document.write(new Date().getFullYear()); </script> <a class="border-bottom"
+                        href="#">Progetti Europei Team</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    Designed By <a class="border-bottom" href="https://wamasolution.com">wamasolution</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
